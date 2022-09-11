@@ -1,2 +1,5 @@
 const envIsValid = (process.env.JWT_SECRET === 'xxxxxxxxxxxxxxx')
+const envDevIsValid = (process.env.DEV_ENV === 'devdevdev')
 console.log(`Hello world environment ${envIsValid}`)
+console.log('====================')
+console.log(`Environment dev is ${process.env.DEV_ENV}`)
