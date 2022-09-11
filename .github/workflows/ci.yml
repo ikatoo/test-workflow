@@ -14,4 +14,6 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
+      env:
+        JWT_SECRET: bbbbbbbbbbbb
     - run: yarn start
