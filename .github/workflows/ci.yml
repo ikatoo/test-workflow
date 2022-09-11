@@ -12,9 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Setup Node
-      env:
-        JWT_SECRET: bbbbbbbbbbbb
       uses: actions/setup-node@v3
       with:
         node-version: 16
-    - run: yarn start
+    - name: Start
+      env:
+        JWT_SECRET: bbbbbbbbbbbb
+      run: yarn start
