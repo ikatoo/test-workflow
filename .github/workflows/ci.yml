@@ -17,5 +17,5 @@ jobs:
         node-version: 16
     - name: Start
       env:
-        JWT_SECRET: bbbbbbbbbbbb
+        JWT_SECRET: ${{ secrets.JWT_SECRET }}
       run: yarn start
