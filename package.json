@@ -1,0 +1,11 @@
+{
+  "name": "test-workflow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ikatoo/test-workflow.git",
+  "author": "Milton Carlos Katoo <mckatoo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
